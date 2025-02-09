@@ -4,7 +4,7 @@ A **React-based** drag-and-drop web app that allows users to design newsletters 
 
 ![App Preview](image-1.png)
 
-## 📺 Demo
+## Demo
 
 ![Drag and Drop Newsletter Demo](/demo.gif)
 
