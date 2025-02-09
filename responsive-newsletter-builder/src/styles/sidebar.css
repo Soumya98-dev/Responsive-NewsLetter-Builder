@@ -1,2 +1,14 @@
 .sidebar-element {
+  padding: 10px;
+  margin-bottom: 8px;
+  background: #f7f7f7;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-weight: bold;
+  cursor: grab;
+  transition: background 0.3s;
+}
+
+.sidebar-element:hover {
+  background: #e0e0e0;
 }

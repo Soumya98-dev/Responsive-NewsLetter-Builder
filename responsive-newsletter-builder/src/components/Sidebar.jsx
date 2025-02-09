@@ -5,7 +5,7 @@ import "../styles/sidebar.css";
 function SidebarElement({ type }) {
   const [{ isDragging }, drag] = useDrag(() => ({
     type: "ELEMENT",
-    item: { type },
+    item: { type: type.toLowerCase() },
     collect: (monitor) => ({
       isDragging: !!monitor.isDragging(),
     }),
